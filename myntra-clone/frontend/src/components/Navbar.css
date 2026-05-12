@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,4 +16,46 @@
 .navbar input {
   padding: 8px;
   width: 220px;
+}
+.navbar button{
+  margin-left:10px;
+  padding:8px 14px;
+  background:#ff3f6c;
+  color:white;
+  border:none;
+  cursor:pointer;
+} */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:white;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar ul{
+  display:flex;
+  list-style:none;
+  gap:20px;
+}
+
+.navbar a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+.navbar input{
+  padding:8px;
+}
+
+.navbar button{
+  margin-left:10px;
+  padding:8px 14px;
+  background:#ff3f6c;
+  color:white;
+  border:none;
+  cursor:pointer;
 }
