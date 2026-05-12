@@ -1,0 +1,24 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card button {
+  padding: 10px;
+  background: #ff3f6c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
