@@ -1,0 +1,54 @@
+.payment-page{
+  display:flex;
+  gap:30px;
+  padding:40px;
+  background:#f5f5f5;
+  min-height:100vh;
+}
+
+.left-section{
+  flex:2;
+}
+
+.right-section{
+  flex:1;
+}
+
+.address-box,
+.price-box,
+.payment-methods{
+  background:white;
+  padding:20px;
+  margin-top:20px;
+  border-radius:10px;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.payment-methods{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.price-row{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:15px;
+}
+
+.total{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.price-box button{
+  width:100%;
+  padding:15px;
+  background:#ff3f6c;
+  color:white;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}

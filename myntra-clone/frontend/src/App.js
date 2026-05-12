@@ -60,7 +60,7 @@
 // }
 
 // export default App;
-
+import Payment from "./pages/Payment";
 import {
   BrowserRouter,
   Routes,
@@ -171,6 +171,12 @@ function App() {
             user ? <CartPage /> : <Navigate to="/login" />
           }
         />
+        <Route
+         path="/payment"
+        element={
+          user ? <Payment /> : <Navigate to="/login" />
+        }
+/>
 
         <Route path="/login" element={<Login />} />
 
